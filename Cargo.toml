@@ -1,0 +1,9 @@
+[package]
+description = "Maker on-chain OTC market."
+name = "parity-makerotc"
+version = "0.1.0"
+license = "GPL-3.0"
+authors = ["Ethcore <admin@ethcore.io>"]
+
+[dependencies]
+parity-webapp = { git = "https://github.com/ethcore/parity-webapp.git", version = "0.2" }
