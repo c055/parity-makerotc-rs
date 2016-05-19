@@ -1,7 +1,7 @@
 [package]
 description = "Maker on-chain OTC market."
 name = "parity-makerotc"
-version = "0.1.0"
+version = "0.1.1"
 license = "GPL-3.0"
 authors = ["Ethcore <admin@ethcore.io>"]
 

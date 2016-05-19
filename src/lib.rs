@@ -20,7 +20,7 @@ impl WebApp for App {
       version: "0.1.0".to_owned(),
       author: "Ethcore <admin@ethcore.io>".to_owned(),
       description: "Maker on-chain OTC market.".to_owned(),
-      icon_url: "favicon-196x196.png".to_owned(),
+      icon_url: "icon.png".to_owned(),
     }
   }
 }
@@ -46,6 +46,7 @@ impl Default for App {
       files.insert("favicon-96x96.png", File { path: "favicon-96x96.png", content_type: "image/png", content: include_bytes!("./web/favicon-96x96.png") });
       files.insert("favicon.ico", File { path: "favicon.ico", content_type: "image/x-icon", content: include_bytes!("./web/favicon.ico") });
       files.insert("index.html", File { path: "index.html", content_type: "text/html", content: include_bytes!("./web/index.html") });
+      files.insert("logo.png", File { path: "logo.png", content_type: "image/png", content: include_bytes!("./web/logo.png") });
       files.insert("mstile-144x144.png", File { path: "mstile-144x144.png", content_type: "image/png", content: include_bytes!("./web/mstile-144x144.png") });
       files.insert("mstile-150x150.png", File { path: "mstile-150x150.png", content_type: "image/png", content: include_bytes!("./web/mstile-150x150.png") });
       files.insert("mstile-310x150.png", File { path: "mstile-310x150.png", content_type: "image/png", content: include_bytes!("./web/mstile-310x150.png") });
