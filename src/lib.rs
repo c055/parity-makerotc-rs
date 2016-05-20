@@ -17,10 +17,10 @@ impl WebApp for App {
   fn info(&self) -> Info {
     Info {
       name: "Maker OTC".to_owned(),
-      version: "0.1.0".to_owned(),
-      author: "Ethcore <admin@ethcore.io>".to_owned(),
+      version: "0.1.3".to_owned(),
+      author: "MakerDAO".to_owned(),
       description: "Maker on-chain OTC market.".to_owned(),
-      icon_url: "icon.png".to_owned(),
+      icon_url: "logo.png".to_owned(),
     }
   }
 }
